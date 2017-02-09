@@ -5,10 +5,16 @@
         <meta charset="UTF-8"> <!-- Zeichenkodierung -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Definiert die max. Anzeigeefläche als 100% (responsivness) -->
+        <link rel="stylesheet" href="normalize.css"> <!-- Normalisiert für alle Browser -->
+        <link rel="stylesheet" href="style.css"> <!-- 1. Möglichkeit für CSS  -->
+        <style> <!-- 2. Möglichkeit für CSS -->
+            /* Mein Stylesheet */ 
+        </style>
+
     </head> <!-- Alles im head ist für den Benutzer nicht direkt sichtbar -->
     <!-- Ab hier, im Körper der Seite, ist für den Besucher alles sichtbar -->
     <body>
-        <section> <!-- Sektion 1 -->
+        <section class="s1" style="background: gainsboro; "> <!-- Sektion 1 --> <!-- 3. Möglichkeit für CSS -->
             
             <header> <!-- Kopfzeile der Sektion --> 
                 <nav> <!-- Navigationselemente -->
@@ -16,7 +22,7 @@
                 </nav>
             </header>
 
-            <article> <!-- Artikel (z.B Zeitungsartikel) -->
+            <article class="blue"> <!-- Artikel (z.B Zeitungsartikel) -->
                 <h1 class="titel" id="haupttitel">This is heading 1</h1>
                 <h2>This is heading 2</h2>
                  

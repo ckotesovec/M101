@@ -1,0 +1,29 @@
+/* Meine Stylesheet Datei */
+
+html {
+    height: 101%;
+}
+
+body {
+    background: yellowgreen;
+}
+
+
+.s1{
+    background: burlywood;
+}
+
+
+.s2{
+    background: black;
+}
+
+
+.blue{
+    background: blue;
+}
+
+
+.white{
+    background: white;
+}
