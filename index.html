@@ -1,0 +1,46 @@
+<!DOCTYPE html> <!-- Typ des Dokuments: Hallo, ich bin ein HTML5 Dokument -->  <!--  -->
+<html lang="de"> <!-- Das HTML Elternelement / Root / Wurzelelement -->
+    <head> <!-- Dokumenteigenschaften und Attribute usw. / nicht sichtbar für User -->
+        <title>Meine erste HTML Seite</title> <!-- Seitentitel -->
+        <meta charset="UTF-8"> <!-- Zeichenkodierung -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Definiert die max. Anzeigeefläche als 100% (responsivness) -->
+    </head> <!-- Alles im head ist für den Benutzer nicht direkt sichtbar -->
+    <!-- Ab hier, im Körper der Seite, ist für den Besucher alles sichtbar -->
+    <body>
+        <section> <!-- Sektion 1 -->
+            
+            <header> <!-- Kopfzeile der Sektion --> 
+                <nav> <!-- Navigationselemente -->
+                    Home | Kontakt | Impressum  
+                </nav>
+            </header>
+
+            <article> <!-- Artikel (z.B Zeitungsartikel) -->
+                <h1 class="titel" id="haupttitel">This is heading 1</h1>
+                <h2>This is heading 2</h2>
+                 
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p> 
+
+                <figure> <!-- Bildelement, es kommt etwas Visuelles / unter Alt der Titel des Bildes, wichtig bei Suche -->
+                    <img 
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/IPhone_7_black_mock-up.png/240px-IPhone_7_black_mock-up.png" 
+                        alt="iPhone">
+                    <figcaption> <!-- Bildbeschriftung unter dem Bild -->
+                        Das iPhone!
+                    </figcaption>
+                </figure>                
+
+                <aside> <!-- Seitenleiste (z.B. für Zusatzinformationen) -->
+                    Seitenleiste rechts
+                </aside>  
+            </article>
+
+            <footer> <!-- Fusszeile -->
+                Das ist meine Fusszeile
+            </footer>
+
+        </section> 
+        
+    </body>
+</html>
