@@ -5,6 +5,10 @@ html {
     font-size: 100%; /* Entspricht somit 16px */
 }
 
+p {
+    line-height: 2;
+}
+
 h1 { 
     font-size: 2rem; 
 }
@@ -50,12 +54,6 @@ a {
     text-decoration: none;
 }
 
-#hyperlinks a {
-    
-
-}
-
-
 
 .btn {
     padding: 9px 20px;
@@ -97,4 +95,22 @@ a {
 #bild1 {
     max-width: 50%;
     max-height: 50%;
+}
+
+#box {
+    box-sizing: content-box !important;
+    background-color: gray;
+    padding: 20px;
+    border: 4px solid olivedrab;
+    margin: 1rem;
+}
+
+.box1 {
+    height: 1000px;
+    box-sizing: content-box !important;
+    background-color: maroon;
+    color: white;
+    padding: 1rem;
+    border: 4px solid olivedrab;
+    margin: 1rem;
 }
