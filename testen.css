@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Lobster');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html {
+    font-size: 100%; /* Entspricht somit 16px */
+}
+
+h1 { 
+    font-size: 2rem; 
+}
+
+h2 { 
+    font-size: 1.9rem; 
+}
+
+h3 { 
+    font-size: 1.8rem; 
+}
+h4 { 
+    font-size: 1.7rem; 
+}
+
+h5 { 
+    font-size: 1.6rem; 
+}
+
+h6 { 
+    font-size: 1.5rem; 
+}
+
+p { 
+    font-size: 1rem; 
+}
+
+a { 
+    font-size: 1.1rem; 
+}
+
+.hide{
+    display: none;
+}
+
+
+.mr5{
+    margin-right: 5px !important;
+}
+
+#hyperlinks a,
+#hyperlinks a:visited{
+    text-decoration: none;
+}
+
+#hyperlinks a {
+    
+
+}
+
+
+
+.btn {
+    padding: 9px 20px;
+    border-radius: 5px;
+    opacity: 0.8; /* 10% transparent */
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn-primary {
+    background-color: #3F51B5;
+}
+
+.btn-danger {
+    background-color: #DD2C00;
+}
+
+.btn-info {
+    background-color: #00B8D4;
+    color: white;
+
+}
+
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#bild1 {
+    max-width: 50%;
+    max-height: 50%;
+}

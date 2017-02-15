@@ -1,12 +1,42 @@
 /* Meine Stylesheet Datei */
 
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Lobster');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    background: gainsboro;
+}
+
+h1, h2 {
+    font-family: 'Lobster';
+}
+
+body {
+    font-family: 'Droid Sans';
+}
+
+#wrapper {
+    max-width: 75%;
+    margin: 30px auto;
+}
+
+
+section > article > figure > img {
+        border-radius: 20px;
+        border: 5px solid black;
+        width: auto;
+}
+
+
+
+
+
+
 html {
     height: 101%;
 }
 
-body {
-    background: yellowgreen;
-}
+
 
 
 .s1{
