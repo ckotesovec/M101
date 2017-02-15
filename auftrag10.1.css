@@ -46,7 +46,7 @@ body {
     font-size: 16px; /* Browser Fallback */
     font-size: 1rem;
 
-    background: url('./images/background_hd.jpg');
+    background: url('./images/c63.jpg');
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Was passiert, wenn Sie diese Zeile entfernen? */
@@ -77,15 +77,16 @@ a {
 
 a { text-decoration: none; } /* Unterstreichung entfernen */
 a:link { color: blue; }
-a:visited { color: magenta; }
+
 .center { text-align: center; } /* Text zentriert */
 
 
 p.infobox {
     color: white;
-    background-color: #0266C8; /* Hintergrundfarbe setzen */
-    border: 3px solid #ecf7dd; /* Rahmen, dünne 3 Pixel Linie */
-    border-radius: 5px; /* Ecken abrunden */
+    background-color: darkgray; /* Hintergrundfarbe setzen */
+    opacity: 0.9;
+    border: 1px solid black; /* Rahmen, dünne 3 Pixel Linie */
+    border-radius: 10px; /* Ecken abrunden */
     text-align: center;	/* Schrift zentrieren */
 }
 
@@ -98,6 +99,7 @@ p.infobox {
 
 #container {
     background-color: white;
+    opacity: 0.7;
     color: black;
     width: 70%;
     border-radius: 7px;
@@ -171,7 +173,7 @@ nav a:active {
 
 nav {
     text-align: right;
-    border-bottom: 1px solid #0266C8;
+    border-bottom: 3px solid black;
     max-height: 30px ; /* Passen Sie die Höhe je nach Bedarf an */ 
 }
 nav li {
@@ -180,9 +182,9 @@ nav li {
 }
 nav a {
     color: black;
-    background-color: white;
+    background-color: darkgray;
     padding: 10px, 25px;
-    border: 1px solid #0266C8;
+    border: 1px solid black;
     border-top-left-radius: 7px; /* border-top-left-radius */
     border-top-right-radius: 7px;
 }
@@ -198,8 +200,10 @@ nav a:focus {
 
 #home #navi01 a, #kontakt #navi02 a {
     color: black;
-    background-color:  white;
-    border-bottom:  white;
+    background-color: darkgray;
+
+    border-bottom: 5px solid orange;
+
 }
 
 
@@ -214,7 +218,9 @@ nav a:focus {
     background-color: white; /* Hinterrundfarbe weiss */
     color: black; /* Schriftfarbe schwarz */
 
-    background: url('./images/top-secret.gif');
+    background: url('./images/logo.png');
+    border: 4px solid black;
+    border-radius: 4px;
     background-size: 140px;
     background-position: right top;
     background-repeat: no-repeat;
@@ -223,8 +229,11 @@ nav a:focus {
 
 
 
+
+
 #logo { 
-    background-color: white;
+    border: 6px solid black;
+    border-radius: 15px;
     color: black;
     height: auto; /* Responsive Image Höhe*/ 
     width: 100%; /* Responsive Image Breite*/
