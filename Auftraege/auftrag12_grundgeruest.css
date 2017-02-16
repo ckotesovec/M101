@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Lobster');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html {
+    font-size: 100%; /* Entspricht somit 16px */
+}
+
+h1 { 
+    font-size: 2rem; 
+}
+
+h2 { 
+    font-size: 1.9rem; 
+}
+
+h3 { 
+    font-size: 1.8rem; 
+}
+h4 { 
+    font-size: 1.7rem; 
+}
+
+h5 { 
+    font-size: 1.6rem; 
+}
+
+h6 { 
+    font-size: 1.5rem; 
+}
+
+p { 
+    font-size: 1rem; 
+}
+
+a { 
+    font-size: 1.1rem; 
+}
+
+#layout { 
+    position: relative;
+}
+
+#layout nav {
+    /* Nav Block wird am linken Rand absolut positioniert */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%; /* oder fix in Pixel */
+    padding: 20px;
+    border: 1px solid black;
+    margin: none;
+    /* Der .nav Bereich hat eine Gesamtbreite von 242px (200+20+2) */
+}
+
+#layout main {
+/* Dieser bereich bekommt einen Aussenabstand links und rechts 262 Pixel */
+    padding: 20px;
+    border: 1px solid black;
+    margin-left: calc(20% + 60px); /* oder fix z.B. 262 Pixel */
+    margin-right: calc(20% + 60px);
+    margin-bottom: 20px;
+    min-height: 200px; /* nur visuelle Verstärkung */
+}
+
+/* Wir verwenden .side für beide Seitenleisten l/r */
+#layout .side {
+    position: absolute; 
+    top: 0;
+    width: 20%; /* oder fix 200 Pixel Breit */
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0;
+}
+
+/* Hier spielen wir mit der absoluten Positionierung */
+/*#layout nav { Klebt links am Rand; }*/
+#layout aside {
+    position: absolute;
+    right: 0;
+}
+
+/* Erweiterung 3-Spalten Layout mit Kopfbereich und Fussbereich */
+#layout-main header, #layout-main footer { 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border: 1px solid black;
+}
+
+#layout-main footer { 
+    margin-top: 20px; 
+}
+

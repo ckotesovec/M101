@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Lobster');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html {
+    font-size: 100%; /* Entspricht somit 16px */
+    background: lightgray;
+}
+
+h1 { 
+    font-size: 2rem; 
+}
+
+h2 { 
+    font-size: 1.9rem; 
+}
+
+h3 { 
+    font-size: 1.8rem; 
+}
+h4 { 
+    font-size: 1.7rem; 
+}
+
+h5 { 
+    font-size: 1.6rem; 
+}
+
+h6 { 
+    font-size: 1.5rem; 
+}
+
+p { 
+    font-size: 1rem; 
+}
+
+a { 
+    font-size: 1.1rem; 
+}
+
+#header1 {
+    height: 50px;
+    width: 100%;
+    background-color: #3F51B5;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100; /* in den Vordergrund nehmen/auf Ebene 100 gehen/ganz vorne */
+}
+
+#i1 {
+    color: white;
+    float: left;
+    margin-left: 30px;
+}    
+
+.mr {
+    margin-right: 50px;
+}
+
+#p1 {
+    font-size: 110%;
+    margin-top: 15px;
+    float: left;
+}
+
+#nav1 {
+    float: right;
+    text-align: right;
+    margin-top: 15px;
+} 
+
+nav a {
+    font-size: 80%;
+    color: white;
+    text-decoration: none;
+}
+
+#figure1 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#img1 {
+    width: 100%;
+    height: 60%;
+}
+
+#article1 {
+    background-color: white;
+    opacity: 0.8;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 60%;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+}
+
+#article1 p, h1 {
+    
+    padding: 10px 40px 10px 40px;
+}
+
+
+
+
+
+
+
